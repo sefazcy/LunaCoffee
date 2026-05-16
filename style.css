@@ -269,30 +269,6 @@ ul {
     flex-wrap: wrap;
 }
 
-.hero-card {
-    min-height: 520px;
-    border-radius: var(--radius-lg);
-    padding: 24px;
-    border: 1px solid var(--border);
-    background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
-        radial-gradient(circle at top right, rgba(200, 162, 122, 0.22), transparent 44%),
-        #151515;
-    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.42);
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-card::before {
-    content: "";
-    position: absolute;
-    inset: 24px;
-    border-radius: 26px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
 .hero-card::before {
     content: "";
     position: absolute;
@@ -300,14 +276,14 @@ ul {
     border-radius: var(--radius-lg);
     background: linear-gradient(to top, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.15));
     z-index: 1;
+}
 
-    .hero-image {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .coffee-card {
@@ -882,11 +858,6 @@ ul {
     .section-badge {
         font-size: 12px;
         padding: 7px 12px;
-    }
-
-    .hero-card::after {
-        width: 210px;
-        height: 210px;
     }
 
     .menu-category,
