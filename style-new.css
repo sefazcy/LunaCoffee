@@ -56,7 +56,7 @@
     position: absolute;
     top: -12px;
     left: -4px;
-    font-family: "Cormorant Garamond", "Playfair Display", serif;
+    font-family: "Lora", serif;
     font-size: 64px;
     line-height: 1;
     color: rgba(200, 162, 122, 0.2);
@@ -426,28 +426,7 @@
     color: #121212;
 }
 
-/* ---------- Custom Cursor ---------- */
 
-.custom-cursor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--coffee-light);
-    pointer-events: none;
-    z-index: 9999;
-    transition: width 0.3s, height 0.3s, background-color 0.3s;
-    mix-blend-mode: difference;
-}
-
-.custom-cursor.cursor-hover {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(200, 162, 122, 0.5);
-    border-color: transparent;
-}
 
 /* ---------- Smooth Fade in Elements ---------- */
 .fade-up-element {
@@ -485,7 +464,7 @@
     gap: 16px;
 }
 .loader-text {
-    font-family: "Playfair Display", serif;
+    font-family: "Lora", serif;
     font-size: 28px;
     letter-spacing: 4px;
     color: var(--coffee-light);
@@ -551,7 +530,7 @@
 
 /* ---------- Philosophy Section ---------- */
 .philosophy-section {
-    padding: 120px 0;
+    padding: 80px 0;
     background: #0a0a0a;
 }
 [data-theme="light"] .philosophy-section { background: #ffffff; }
@@ -577,7 +556,7 @@
     transform: scale(1.02);
 }
 .philosophy-content h2 {
-    font-family: "Playfair Display", serif;
+    font-family: "Lora", serif;
     font-size: clamp(34px, 4vw, 48px);
     margin: 16px 0 24px;
     line-height: 1.1;
@@ -592,11 +571,20 @@
 .phil-signature {
     margin-top: 30px;
     padding-top: 24px;
-    font-family: "Cormorant Garamond", "Playfair Display", serif;
+    font-family: "Lora", serif;
     font-size: 22px;
     font-style: italic;
     color: var(--coffee-light);
     border-top: 1px solid var(--border);
+}
+
+/* ---------- Menu Note ---------- */
+.menu-note {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(22, 22, 22, 0.5);
+    font-style: italic;
 }
 
 /* ---------- Light Mode Overrides ---------- */
@@ -632,8 +620,6 @@
 [data-theme="light"] .info-card { background: #ffffff; }
 [data-theme="light"] .btn-secondary { background: transparent; color: var(--text-main); border-color: var(--border); }
 [data-theme="light"] .btn-secondary:hover { border-color: var(--coffee); color: var(--coffee); }
-[data-theme="light"] .custom-cursor { border-color: var(--coffee); }
-[data-theme="light"] .custom-cursor.cursor-hover { background-color: rgba(122, 79, 46, 0.15); border-color: transparent; }
 [data-theme="light"] .nav-menu { background: rgba(252, 252, 252, 0.98); }
 [data-theme="light"] .site-header.scrolled { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08); }
 [data-theme="light"] .hero-content h1 {

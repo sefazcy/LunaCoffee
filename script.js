@@ -1,5 +1,5 @@
 /* ================================
-   Luna Coffee - JavaScript
+   Sirius Kafe - JavaScript
    Version: Interactive features & i18n
 ================================ */
 
@@ -13,79 +13,78 @@ const translations = {
     navLocation: "Konum",
     navContact: "İletişim",
     btnContact: "Bize Ulaş",
-    philBadge: "Felsefemiz",
-    philTitle: "Mükemmellik Bir Standarttır",
-    philDesc1: "Her bir kahve çekirdeği, özenle seçilmiş çiftliklerden gelir ve ustalıkla kavrulur. Luna'da kahve sadece bir içecek değil, aynı zamanda bir zanaattır.",
-    philDesc2: "Modern yaşamın hızına karşı, anı yavaşlatmak ve kendinize elit bir mola vermek için tasarlandık. Ambiyansımız, sadece birinci sınıf bir kahve deneyimi sunmakla kalmaz, aynı zamanda zihinsel bir sığınak yaratır.",
-    philSignature: "Kurucu, Luna Coffee",
+    philBadge: "Odaklanmak İçin",
+    philTitle: "Odaklanmak için doğru yer.",
+    philDesc1: "Sirius Kafe, Kızılay’ın gürültüsünden arındırılmış 10. kattaki sakin ortamıyla konsantrasyonunuzu destekler. Uzun süre rahat oturabileceğiniz alanlar, priz ve şarj noktaları, ücretsiz Wi-Fi — hepsi düşünüldü.",
+    philDesc2: "Yalnız çalışmak isteyenler için sessiz köşeler, grup projesi için sosyal masalar ve bir mola vermek isteyenler için balkon — Sirius Kafe, merkezi konumuyla Kızılay’ın en işlevsel çalışma durağı.",
+    philSignature: "Sirius Kafe, Kızılay",
 
-    heroBadge: "Taze kahve · Sessiz alan · Öğrenci dostu menü",
-    heroTitle: "Kampüsün Sakin Kahve Noktası",
-    heroDesc: "Luna Coffee, ders çalışmak, arkadaşlarınla buluşmak ve günün arasında iyi bir kahve molası vermek için tasarlanmış modern ve sıcak bir alan.",
-    btnMenu: "Menüyü İncele",
-    btnLocation: "Konuma Git",
-    coffeeLabel: "Luna Signature",
-    coffeeTitle: "Espresso & Study Mood",
-    coffeeDesc: "Sakin atmosfer, güçlü kahve ve uzun çalışma saatleri için ideal masa düzeni.",
+    heroBadge: "Kızılay, Ankara · Her gün 09:30 – 23:00 · Ücretsiz Wi-Fi",
+    heroTitle: "Kitap, kahve ve derin bir nefes.",
+    heroDesc: "Sirius Kafe; Kızılay’ın tam ortasında sizi bekleyen sessiz çalışma alanı, kitap kulübü ve sıcak kafe deneyimi.",
+    btnMenu: "Bizi Keşfet",
+    btnLocation: "Nasıl Gidilir?",
+    coffeeLabel: "Sirius Kütüphane",
+    coffeeTitle: "10. Katta, Şehrin Üstünde",
+    coffeeDesc: "Kızılay merkezinde balkon manzaralı, sessiz çalışma alanı ve sıcak kafe deneyimi bir arada.",
     aboutBadge: "Hakkımızda",
-    aboutTitle: "Luna Coffee Hakkında",
-    aboutDesc1: "Luna Coffee, kampüs hayatının yoğun temposu içinde sakin bir mola alanı sunmak için kuruldu. İster ders çalışmak için sessiz bir köşe arıyor olun, ister arkadaşlarınızla kaliteli bir kahve eşliğinde vakit geçirmek isteyin; Luna Coffee sade atmosferi, özenli menüsü ve sıcak ortamıyla gününüzün iyi bir parçası olmayı hedefler.",
-    aboutDesc2: "Kahve, çalışma alanı ve iyi atmosferi tek yerde buluşturuyoruz.",
-    stat1Desc: "Açılış Saati",
-    stat2Desc: "Kahve & Tatlı Seçeneği",
-    stat3Desc: "Öğrenci Dostu Çalışma Alanı",
+    aboutTitle: "Sirius Kafe Hakkında",
+    aboutDesc1: "Sirius Kafe, Kızılay’ın kalbinde 10. katta; şehrin gürültüsünden uzak, kitabınızla ya da notlarınızla saatlerce vakit geçirebileceğiniz bir alan. Güzel bir manzara, sıcak bir çay ve sessizlik — hepsini aynı anda bulabilirsiniz.",
+    aboutDesc2: "Kütüphane rahatında, kafe sıcaklığında.",
+    stat1Desc: "Google Puanı",
+    stat2Desc: "Gerçek Yorum",
+    stat3Desc: "Her Gün Açık",
     featBadge: "Deneyim",
-    featTitle: "Neden Luna Coffee?",
-    featDesc: "Sadece kahve içilecek bir yer değil; çalışmak, odaklanmak ve iyi vakit geçirmek için düşünülmüş bir alan.",
+    featTitle: "Neden Sirius Kafe?",
+    featDesc: "Sessiz çalışma alanı, balkon manzarası, Speaking Club ve Kitap Kulübü ile Kızılay’ın en sıcak kitap kafe deneyimi.",
     feat1Title: "Sessiz Çalışma Alanı",
-    feat1Desc: "Ders çalışmak, proje hazırlamak veya laptopla odaklanmak isteyenler için sakin masa düzeni.",
-    feat2Title: "Taze Kahve",
-    feat2Desc: "Espresso bazlı kahveler, filtre kahve ve soğuk kahve seçenekleriyle günlük taze lezzetler.",
-    feat3Title: "Öğrenci Dostu Menü",
-    feat3Desc: "Kaliteli kahve ve atıştırmalıkları ulaşılabilir fiyatlarla sunan sade bir menü.",
-    feat4Title: "Priz & Wi-Fi",
-    feat4Desc: "Uzun çalışma oturumları için Wi-Fi ve priz erişimi bulunan rahat oturma alanları.",
+    feat1Desc: "Konsantrasyonu artıran sakin atmosfer, priz ve şarj imkânı, yalnız ya da grup çalışmasına uygun esnek oturma düzeni.",
+    feat2Title: "Balkon & Şehir Manzarası",
+    feat2Desc: "Kızılay’ın 10. katında şehrin üzerinde açık bir balkon; çayınızı içerken Ankara’yı tepeden izleyin.",
+    feat3Title: "Speaking Club",
+    feat3Desc: "Her Cuma 19:00’da düzenlenen Speaking Club etkinliğiyle İngilizce konuşma pratiği yapın, yeni insanlarla tanışın.",
+    feat4Title: "Sirius Kitap Kulübü",
+    feat4Desc: "Okuma grupları, kitap tartışmaları ve kültürel etkinliklerle Sirius topluluğunun bir parçası olun.",
     menuBadge: "Menü",
-    menuTitle: "Menümüzden Seçtiklerimiz",
-    menuDesc: "Günlük kahve molaları, uzun çalışma saatleri ve tatlı kaçamaklar için özenle seçilmiş lezzetler.",
-    catHot: "Sıcak Kahveler",
-    catCold: "Soğuk Kahveler",
-    catSnack: "Tatlı & Atıştırmalık",
+    menuTitle: "Sirius Kafe Menüsü",
+    menuDesc: "Tüm paketler giriş ile birlikte sunulmaktadır. Detaylı menü için bize ulaşabilirsiniz.",
+    catHot: "Giriş & İçecek Paketleri",
+    catCold: "Atıştırmalık Paketleri",
+    catSnack: "Ekstra Seçenekler",
     popBadge: "Popüler",
+    menuNote: "Fiyatlar değişiklik gösterebilir. Güncel menü için bizimle iletişime geçebilirsiniz.",
     testBadge: "Müşteri Yorumları",
-    testTitle: "Öğrenciler Ne Söylüyor?",
-    testDesc: "Luna Coffee'yi tercih eden öğrenci ve çalışanlardan gelen samimi fikirler.",
-    test1Text: "\"Araştırma yapmak için en iyi yer! Sessiz ortam ve iyi kahve kombinasyonu harika.\"",
-    test1Role: "İkinci Sınıf Öğrenci",
-    test2Text: "\"Fiyatları uygun, kahve kalitesi iyi ve barista'ları çok ilgili. Hergün geçiyorum.\"",
-    test2Role: "İşletme Mezunu",
-    test3Text: "\"Arkadaşlarla toplanmak için kusursuz bir mekân. Wi-Fi hızlı, çevre çok samimi.\"",
-    test3Role: "Proje Koordinatörü",
+    testTitle: "Sirius Kafe’yi Sevenler Ne Diyor?",
+    testDesc: "199’dan fazla Google yorumunda öne çıkan temalar: sakin atmosfer, sıcak ekip ve balkon manzarası.",
+    test1Text: "\"Ders çalışmak için Ankara’nın en iyi adresi. 10. kattaki sessiz ortam ve balkon manzarası inanılmaz. Haftada birkaç kez geliyorum.\"",
+    test1Role: "Üniversite Öğrencisi",
+    test2Text: "\"Speaking Club etkinliği harika, ekip çok sıcak. Cuma akşamları burası benim için zorunlu durak.\"",
+    test2Role: "Düzenli Müşteri",
+    test3Text: "\"Kitap okumak, kahve içmek ve şehrin üstünden manzara izlemek — Sirius Kafe’de bunların hepsi bir arada.\"",
+    test3Role: "Yazar & Serbest Çalışan",
     galBadge: "Atmosfer",
-    galTitle: "Luna’da Atmosfer",
-    galDesc: "Sade tasarım, sıcak ışıklar ve odaklanmaya uygun masa düzeniyle günün her anına eşlik eden bir alan.",
-    gal1: "Çalışma Alanı",
-    gal2: "Kahve Hazırlığı",
-    gal3: "Tatlı & Kahve",
-    gal4: "İç Mekân",
+    galTitle: "Sirius Kafe’de Atmosfer",
+    galDesc: "Kitaplık, balkon, çalışma köşeleri ve sıcak kafe ortamı — Sirius Kafe’nin farklı yüzleri.",
+    gal1: "Giriş & Genel Atmosfer",
+    gal2: "Balkon Manzarası",
+    gal3: "Çalışma & Sosyal Alan",
+    gal4: "Kitaplık & Kültür Köşesi",
     locBadge: "Konum",
     locTitle: "Bize Ulaşın",
-    locDesc: "Kampüs çevresinde kahve molası vermek, ders çalışmak veya arkadaşlarınla buluşmak için Luna Coffee’ye uğrayabilirsin.",
+    locDesc: "Kızılay’ın tam merkezinde, Atatürk Bulvarı üzerinde 10. katta. Ulaşmak kolay, ayrılmak zor.",
     locTimeTitle: "Çalışma Saatleri",
-    locTime1D: "Pazartesi – Cuma",
-    locTime2D: "Cumartesi",
-    locTime3D: "Pazar",
-    locAddrTitle: "Konum",
-    locAddr: "Hacettepe Üniversitesi çevresi, Ankara",
+    locTime1D: "Her gün",
+    locAddrTitle: "Adres",
+    locAddr: "Atatürk Blv Alemdar İş Hanı No:88, 10. Kat / 20-19, 06530 Kızılay – Çankaya / Ankara",
     locBtn: "Google Maps’te Aç",
     contBadge: "İletişim",
-    contTitle: "Kahve Molan İçin Buradayız",
-    contDesc: "Menü hakkında bilgi almak, masa durumu sormak veya bize ulaşmak için WhatsApp, telefon ya da Instagram üzerinden iletişime geçebilirsiniz.",
-    contWa: "☕ WhatsApp'tan Yaz",
-    contIg: "📷 Instagram",
-    contTel: "📞 Telefon Et",
-    footerDesc: "Kampüs çevresinde sakin, modern ve öğrenci dostu kahve deneyimi.",
-    footerRights: "© 2026 Luna Coffee. Demo portfolio project."
+    contTitle: "Sirius Kafe’ye Ulaşın",
+    contDesc: "Rezervasyon, etkinlik veya menü hakkında bilgi almak için bize WhatsApp, Instagram veya telefon üzerinden ulaşabilirsiniz.",
+    contWa: "☕ WhatsApp’tan Yaz",
+    contIg: "📷 Instagram’ı Takip Et",
+    contTel: "📞 Ara: 0534 058 33 28",
+    footerDesc: "Kızılay’da kitap, kahve ve sessiz çalışma alanı. Her gün 09:30 – 23:00 açık.",
+    footerRights: "© 2026 Sirius Kafe, Ankara. Tüm hakları saklıdır."
   },
   en: {
     navHome: "Home",
@@ -95,79 +94,78 @@ const translations = {
     navLocation: "Location",
     navContact: "Contact",
     btnContact: "Contact Us",
-    philBadge: "Our Philosophy",
-    philTitle: "Excellence is a Standard",
-    philDesc1: "Every coffee bean comes from carefully selected farms and is expertly roasted. At Luna, coffee is not just a beverage, it's a craft.",
-    philDesc2: "Designed to counteract the pace of modern life, allowing you to slow down the moment and give yourself an elite break. Our ambiance not only offers a first-class coffee experience but also creates a mental sanctuary.",
-    philSignature: "Founder, Luna Coffee",
+    philBadge: "Focus Here",
+    philTitle: "The right place to focus.",
+    philDesc1: "Sirius Kafe’s calm 10th-floor setting in Kızılay supports your concentration. Comfortable seating for long sessions, power outlets, charging points, and free Wi-Fi — all thought through.",
+    philDesc2: "Quiet corners for solo work, social tables for group projects, and a balcony for a break — Sirius Kafe is Kızılay’s most functional study stop, right in the center.",
+    philSignature: "Sirius Kafe, Kızılay",
 
-    heroBadge: "Fresh coffee · Quiet space · Student-friendly menu",
-    heroTitle: "The Campus's Calm Coffee Spot",
-    heroDesc: "Luna Coffee is a modern and warm space designed for studying, meeting friends, and taking a good coffee break during the day.",
-    btnMenu: "Explore Menu",
+    heroBadge: "Kızılay, Ankara · Open daily 09:30 – 23:00 · Free Wi-Fi",
+    heroTitle: "Books, coffee, and a deep breath.",
+    heroDesc: "Sirius Kafe — a quiet study space, book club, and warm café experience waiting for you in the heart of Kızılay.",
+    btnMenu: "Discover Us",
     btnLocation: "Get Directions",
-    coffeeLabel: "Luna Signature",
-    coffeeTitle: "Espresso & Study Mood",
-    coffeeDesc: "Quiet atmosphere, strong coffee, and ideal seating for long study hours.",
+    coffeeLabel: "Sirius Library",
+    coffeeTitle: "On the 10th Floor, Above the City",
+    coffeeDesc: "Balcony views, quiet study space, and a warm café experience — all in the center of Kızılay.",
     aboutBadge: "About Us",
-    aboutTitle: "About Luna Coffee",
-    aboutDesc1: "Luna Coffee was established to offer a calm break area amidst the busy pace of campus life. Whether you're looking for a quiet corner to study or want to spend time with friends over quality coffee; Luna Coffee aims to be a good part of your day with its simple atmosphere, careful menu, and warm environment.",
-    aboutDesc2: "We bring coffee, workspace, and good atmosphere together in one place.",
-    stat1Desc: "Opening Time",
-    stat2Desc: "Coffee & Dessert Options",
-    stat3Desc: "Student-Friendly Workspace",
+    aboutTitle: "About Sirius Kafe",
+    aboutDesc1: "Sirius Kafe sits on the 10th floor in the heart of Kızılay — away from the city noise, a place where you can spend hours with your book or notes. A beautiful view, a warm cup of tea, and silence — all at the same time.",
+    aboutDesc2: "Library comfort, café warmth.",
+    stat1Desc: "Google Rating",
+    stat2Desc: "Real Reviews",
+    stat3Desc: "Open Every Day",
     featBadge: "Experience",
-    featTitle: "Why Luna Coffee?",
-    featDesc: "Not just a place to drink coffee; a space designed to work, focus, and have a good time.",
-    feat1Title: "Quiet Workspace",
-    feat1Desc: "Calm seating arrangement for those who want to study, prepare projects, or focus with a laptop.",
-    feat2Title: "Fresh Coffee",
-    feat2Desc: "Daily fresh flavors with espresso-based coffees, filter coffee, and cold coffee options.",
-    feat3Title: "Student-Friendly Menu",
-    feat3Desc: "A simple menu offering quality coffee and snacks at accessible prices.",
-    feat4Title: "Outlets & Wi-Fi",
-    feat4Desc: "Comfortable seating areas with Wi-Fi and outlet access for long study sessions.",
+    featTitle: "Why Sirius Kafe?",
+    featDesc: "Quiet study space, balcony view, Speaking Club, and Book Club — the warmest book café experience in Kızılay.",
+    feat1Title: "Quiet Study Space",
+    feat1Desc: "A focus-friendly atmosphere, power outlets, charging points, and flexible seating for solo or group work.",
+    feat2Title: "Balcony & City View",
+    feat2Desc: "An open balcony above Kızılay on the 10th floor — watch Ankara from above while enjoying your tea.",
+    feat3Title: "Speaking Club",
+    feat3Desc: "Practice your English and meet new people at our Speaking Club every Friday at 19:00.",
+    feat4Title: "Sirius Book Club",
+    feat4Desc: "Reading groups, book discussions, and cultural events — become part of the Sirius community.",
     menuBadge: "Menu",
-    menuTitle: "Our Selections",
-    menuDesc: "Carefully selected flavors for daily coffee breaks, long study hours, and sweet getaways.",
-    catHot: "Hot Coffees",
-    catCold: "Cold Coffees",
-    catSnack: "Desserts & Snacks",
+    menuTitle: "Sirius Kafe Menu",
+    menuDesc: "All packages include entry. Contact us for the full menu.",
+    catHot: "Entry & Drink Packages",
+    catCold: "Snack Packages",
+    catSnack: "Extra Options",
     popBadge: "Popular",
+    menuNote: "Prices are subject to change. Contact us for the current menu.",
     testBadge: "Customer Reviews",
-    testTitle: "What Students Say?",
-    testDesc: "Sincere opinions from students and workers who prefer Luna Coffee.",
-    test1Text: "\"Best place to do research! The combination of a quiet environment and good coffee is great.\"",
-    test1Role: "Sophomore Student",
-    test2Text: "\"Prices are reasonable, coffee quality is good, and baristas are very attentive. I stop by every day.\"",
-    test2Role: "Business Graduate",
-    test3Text: "\"A perfect place to gather with friends. Fast Wi-Fi, very friendly environment.\"",
-    test3Role: "Project Coordinator",
+    testTitle: "What Sirius Kafe Fans Say?",
+    testDesc: "Themes from 199+ Google reviews: calm atmosphere, warm staff, and balcony view.",
+    test1Text: "\"The best study spot in Ankara. The quiet environment on the 10th floor and the balcony view are incredible. I come several times a week.\"",
+    test1Role: "University Student",
+    test2Text: "\"The Speaking Club event is great, the team is so warm. Friday evenings here are a must for me.\"",
+    test2Role: "Regular Customer",
+    test3Text: "\"Reading a book, drinking coffee, and watching the view from above — all of that at Sirius Kafe.\"",
+    test3Role: "Writer & Freelancer",
     galBadge: "Atmosphere",
-    galTitle: "Atmosphere at Luna",
-    galDesc: "A space that accompanies every moment of the day with its simple design, warm lights, and focus-friendly seating.",
-    gal1: "Workspace",
-    gal2: "Coffee Prep",
-    gal3: "Dessert & Coffee",
-    gal4: "Interior",
+    galTitle: "Atmosphere at Sirius Kafe",
+    galDesc: "Library, balcony, study corners, and a warm café setting — the many faces of Sirius Kafe.",
+    gal1: "Entrance & General Atmosphere",
+    gal2: "Balcony View",
+    gal3: "Study & Social Area",
+    gal4: "Library & Culture Corner",
     locBadge: "Location",
-    locTitle: "Reach Us",
-    locDesc: "You can stop by Luna Coffee to take a coffee break around the campus, study, or meet with your friends.",
-    locTimeTitle: "Working Hours",
-    locTime1D: "Monday – Friday",
-    locTime2D: "Saturday",
-    locTime3D: "Sunday",
-    locAddrTitle: "Location",
-    locAddr: "Around Hacettepe University, Ankara",
+    locTitle: "Find Us",
+    locDesc: "In the very center of Kızılay, on the 10th floor of Atatürk Blvd. Easy to reach, hard to leave.",
+    locTimeTitle: "Opening Hours",
+    locTime1D: "Every day",
+    locAddrTitle: "Address",
+    locAddr: "Atatürk Blv Alemdar İş Hanı No:88, 10th Floor / 20-19, 06530 Kızılay – Çankaya / Ankara",
     locBtn: "Open in Google Maps",
     contBadge: "Contact",
-    contTitle: "We Are Here For Your Coffee Break",
-    contDesc: "To get information about the menu, ask about table availability, or reach us, you can contact us via WhatsApp, phone, or Instagram.",
+    contTitle: "Reach Sirius Kafe",
+    contDesc: "For reservations, events, or menu info, reach us via WhatsApp, Instagram, or phone.",
     contWa: "☕ Text on WhatsApp",
-    contIg: "📷 Instagram",
-    contTel: "📞 Call Us",
-    footerDesc: "A calm, modern, and student-friendly coffee experience around the campus.",
-    footerRights: "© 2026 Luna Coffee. Demo portfolio project."
+    contIg: "📷 Follow on Instagram",
+    contTel: "📞 Call: 0534 058 33 28",
+    footerDesc: "Books, coffee, and quiet study space in Kızılay. Open every day 09:30 – 23:00.",
+    footerRights: "© 2026 Sirius Kafe, Ankara. All rights reserved."
   }
 };
 
@@ -182,7 +180,7 @@ langBtns.forEach(btn => {
         btn.classList.add('active');
 
         const lang = btn.getAttribute('data-lang');
-        localStorage.setItem('luna-lang', lang);
+        localStorage.setItem('sirius-lang', lang);
         
         // Add a small transition effect to the body for premium feel
         document.body.style.opacity = '0.5';
@@ -203,7 +201,7 @@ langBtns.forEach(btn => {
 });
 
 // Load saved language
-const savedLang = localStorage.getItem('luna-lang') || 'tr';
+const savedLang = localStorage.getItem('sirius-lang') || 'tr';
 if (savedLang !== 'tr') {
     const btn = document.querySelector(`.lang-btn[data-lang="${savedLang}"]`);
     if (btn) btn.click();
@@ -291,27 +289,6 @@ document.querySelectorAll('.feature-card, .testimonial-card, .menu-category, .st
     observer.observe(el);
 });
 
-// Custom Cursor (Premium touch)
-const createCursor = () => {
-    const cursor = document.createElement('div');
-    cursor.classList.add('custom-cursor');
-    document.body.appendChild(cursor);
-    
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.transform = `translate(${e.clientX - 10}px, ${e.clientY - 10}px)`;
-    });
-
-    document.querySelectorAll('a, button, .gallery-card, .feature-card, .menu-item').forEach(el => {
-        el.addEventListener('mouseenter', () => cursor.classList.add('cursor-hover'));
-        el.addEventListener('mouseleave', () => cursor.classList.remove('cursor-hover'));
-    });
-};
-
-// Disable custom cursor on mobile / touch devices
-if (window.innerWidth > 980 && window.matchMedia("(pointer: fine)").matches) {
-    document.body.style.cursor = "none";
-    createCursor();
-}
 
 // Premium body transition
 document.body.style.transition = 'opacity 0.2s ease-in-out';
@@ -327,7 +304,7 @@ window.addEventListener('load', () => {
 
 // Theme Toggle Logic
 const themeBtn = document.getElementById('theme-btn');
-const currentTheme = localStorage.getItem('luna-theme');
+const currentTheme = localStorage.getItem('sirius-theme');
 
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
@@ -338,10 +315,10 @@ if (themeBtn) {
         let theme = document.documentElement.getAttribute('data-theme');
         if (theme === 'light') {
             document.documentElement.removeAttribute('data-theme');
-            localStorage.setItem('luna-theme', 'dark');
+            localStorage.setItem('sirius-theme', 'dark');
         } else {
             document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('luna-theme', 'light');
+            localStorage.setItem('sirius-theme', 'light');
         }
     });
 }
